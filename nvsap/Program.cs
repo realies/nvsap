@@ -32,7 +32,7 @@ namespace nvsap
                 }
                 AutoItX.ControlSetText(targetWindowClass, "", "[CLASS:Edit; INSTANCE:1]", code);
                 AutoItX.ControlClick(targetWindowClass, "", "[CLASS:Button; INSTANCE:1]");
-                Program.Log("Auth code send");
+                Program.Log("Auth code sent");
                 return true;
             }
             catch (Exception ex)
